@@ -1,5 +1,6 @@
 package com.example.gestiondestock.bean;
 
+import com.example.gestiondestock.enums.Langue;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,6 +16,7 @@ public class Admin {
     private String password;
     private String nomEntreprise;
     private Long telephone;
+    private Langue langue;
 
     public Long getId() {
         return id;
